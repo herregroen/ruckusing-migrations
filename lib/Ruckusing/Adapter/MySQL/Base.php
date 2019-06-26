@@ -103,7 +103,7 @@ class Ruckusing_Adapter_MySQL_Base extends Ruckusing_Adapter_Base implements Ruc
     {
         $types = array(
                 'primary_key'   => array('name' => 'integer', 'limit' => 11, 'null' => false),
-                'string'        => array('name' => "varchar", 'limit' => 255),
+                'string'        => array('name' => "varchar", 'limit' => 191),
                 'text'          => array('name' => "text"),
                 'tinytext'      => array('name' => "tinytext"),
                 'mediumtext'    => array('name' => 'mediumtext'),
